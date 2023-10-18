@@ -1,0 +1,246 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Arial", sans-serif;
+}
+html, body {
+    height: 100%;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700&display=swap');   
+		.Jumboheader{
+			background-color: #84A98C;
+
+		}
+		body{
+			background-color: #B6AD90;
+			background-size: cover;
+            font-family: 'Urbanist', sans-serif;
+		}
+        .navbar .navbar-nav .dropdown a{
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            text-align: left;
+            font-size: 17px;
+        }
+        .navbar .navbar-nav .dropdown .drop-item li{
+            display: block;
+        }
+        .navbar .navbar-nav .dropdown .drop-item{
+            width: 150%;
+            background: #283618;
+            position: absolute;
+            align-items: center;
+            z-index: 999;
+            display: none;
+        }
+        .navbar .navbar-nav .dropdown a:hover{
+            color: #FFB3C1;
+        }
+        .navbar .navbar-nav .dropdown:hover .drop-item{
+            display: block;
+        }
+		.home{
+			font-family: Times New Roman;
+			font-size: 400%;
+		}
+        .navbar .navbar-brand{
+            font-weight: bold;
+            font-family: 'Urbanist';
+            text-align: center;
+            font-size: 20px;
+        }
+        .navbar a{
+            padding: 10px;
+        }
+        .navbar .navbar-nav .nav-item a:hover{
+            color: #FFB3C1;
+        }
+        .container .btn{
+            color: #fff;
+            background: #2f3e46;;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 12px 55px;
+            margin: 20px;
+            border-radius: 20px;
+            border: 3px solid #006600;
+            outline: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: transform 80ms ease-in;
+            cursor: pointer;
+    }
+    .container .btn:active{
+    transform: scale(0.90);
+    }
+        .container img{
+         height: 120px;
+         width: 120px;
+         object-fit: cover;
+         border-radius: 16px;
+         margin: 0 14px 0 12px;
+         transition: all 0.5s ease;
+        }
+        .container p{
+            font-size: 20px;
+        }
+
+.heading h1{
+	color: #EFEFEF;
+	font-size: 55px;
+	text-align: center;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+.sudlanan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:90%;
+	margin: 65px auto;
+}
+
+.sherenghe-content{
+	flex: 1;
+	width: 600px;
+	margin: 0px 25px;
+	animation: fadeInUP 2s ease;
+}
+.sherenghe-content h2 {
+	font-size: 38px;
+	margin-bottom: 20px;
+	color: deeppink;
+
+}
+.sherenghe-content p{
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+	color: floralwhite;
+	text-align: justify;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.sherenghe-content button{
+	display: inline-block;
+	background-color: darkviolet;
+	color: #fff;
+	padding: 12px 24px;
+	border-radius: 5px;
+	font-size: 20px;
+	border:none;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.sherenghe-content button:hover{
+	background-color: seagreen;
+	transform: scale(1.1);
+	margin-bottom: 10px;
+}
+.sherenghe-image{
+	flex: 1;
+	width: 600px;
+	margin: auto;
+	animation: fadeInRight 2s ease;
+}
+.sherenghe-image img{
+	width: 100%;
+	height: 400px;
+	border-radius: 10px;
+}
+        
+#row {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 10px;
+}
+
+#inay {
+  text-align: center;
+  margin: 1px;
+}
+
+.circle-image {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 100px;
+  margin-bottom: 10px; /* Spacing between image and text */
+}
+
+#inay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}
+
+/* Style the text below the images */
+#inay p {
+  font-size: 18px;
+  color: #333; /* Text color */
+  margin: 0;
+}
+.row:last-child {
+  margin-top: 20px; /* Add margin to separate the two sets of circles */
+}
+
+
+@media screen and (max-width: 768px){
+	.heading h1{
+		font-size: 45px;
+		margin-top: 30px;
+	}
+	.sherenghe{
+		margin:0px;
+	}
+	.sudlanan{
+		width: 100%;
+		flex-direction: column;
+		margin: 0px;
+		padding: 0px 40px;
+	}
+	.sherenghe-content{
+		width: 100%;
+		margin: 35px 0px;
+	}
+	.sherenghe-content h2{
+		font-size: 30px;
+	}
+	.sherenghe-content p{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.sherenghe-content button{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	.sherenghe-image{
+		width: 100%;
+	}
+}
+@keyframes fadeInUP {
+	0%{
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@keyframes fadeInRight {
+	0%{
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+

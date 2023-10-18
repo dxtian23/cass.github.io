@@ -1,0 +1,81 @@
+.button {
+	color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    background: #1d1b31;
+    border: none; 
+}
+.sidebar .nav-links li .sub_menu button:hover{
+    opacity: 1;
+}
+
+.home-section{
+    width: 100%;
+}
+.table-container{
+    height: auto; /* Set the desired height for the table container */
+    margin-left: 8%;  
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+th {
+    background-color: sandybrown;
+    color:white;
+}
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+
+.form-container form h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+.form-container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background:#eee;
+    border-radius: 5px;
+}
+.form-container form .form-btn{
+    background: #fbd0d9;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+

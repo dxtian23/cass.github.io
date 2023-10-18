@@ -1,0 +1,158 @@
+*{
+	font-family: "Arial", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700&display=swap');   
+		.Jumboheader{
+			background-color: #84A98C;
+
+		}
+		body{
+			background-color: #B6AD90;
+			background-size: cover;
+            font-family: 'Urbanist', sans-serif;
+		}
+        .navbar .navbar-nav .dropdown a{
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            text-align: left;
+            font-size: 17px;
+        }
+        .navbar .navbar-nav .dropdown .drop-item li{
+            display: block;
+        }
+        .navbar .navbar-nav .dropdown .drop-item{
+            width: 150%;
+            background: #283618;
+            position: absolute;
+            align-items: center;
+            z-index: 999;
+            display: none;
+        }
+        .navbar .navbar-nav .dropdown a:hover{
+            color: #FFB3C1;
+        }
+        .navbar .navbar-nav .dropdown:hover .drop-item{
+            display: block;
+        }
+		.home{
+			font-family: Times New Roman;
+			font-size: 400%;
+		}
+        .navbar .navbar-brand{
+            font-weight: bold;
+            font-family: 'Urbanist';
+            text-align: center;
+            font-size: 20px;
+        }
+        .navbar a{
+            padding: 10px;
+        }
+        .navbar .navbar-nav .nav-item a:hover{
+            color: #FFB3C1;
+        }
+        .container .btn{
+            color: #fff;
+            background: #2f3e46;;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 12px 55px;
+            margin: 20px;
+            border-radius: 20px;
+            border: 3px solid #006600;
+            outline: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: transform 80ms ease-in;
+            cursor: pointer;
+    }
+    .container .btn:active{
+    transform: scale(0.90);
+    }
+        .container img{
+         height: 120px;
+         width: 120px;
+         object-fit: cover;
+         border-radius: 16px;
+         margin: 0 14px 0 12px;
+         transition: all 0.5s ease;
+        }
+        .container p{
+            font-size: 20px;
+        }
+
+.heading {
+	text-align: center;
+    padding: 20px 0;
+}
+.heading h1{
+	color: #EFEFEF;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 48px;
+	display: inline-block;
+	 border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.centered-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px; /* Set the desired height for the container */
+}
+.centered-image img {
+    width: 900px; /* Set the desired width for the image */
+    height: 500px; /* Maintain the aspect ratio */
+}
+.normal-text {
+  font-size: 18px;
+  margin-left: -0.5em; 
+  text-indent: 40px;
+  text-align: justify;
+}
+.normal-text2 {
+  font-size: 18px;
+  margin-left: -0.5em; 
+
+}
+
+
+.text-block {
+  max-width: 100%; /* Set your desired maximum width */
+  width: 100%; /* Ensure the block is 100% of its container width */
+  padding-left: 60px;
+  padding-top: 50px;
+  border: 2px solid #000;
+  border-radius: 23px;
+  padding: 20px;
+}
+
+.text-block h3 {
+	background-color: ghostwhite;
+    padding: 8px 16px;
+    border-left: 4px solid steelblue;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+
+.guide1{
+	padding-left: 18px;
+	text-align: justify;
+}
+.text-block .opT {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+ul {
+      padding-left: 20px;
+
+}
+li {
+      margin-bottom: 7px;
+      font-size: 18px; 
+    }
+
